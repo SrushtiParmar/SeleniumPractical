@@ -1,0 +1,10 @@
+require "faraday"
+require "json"
+
+Class ExampleApi
+def self.users()
+url = " https://jsonplaceholder.typicode.com/posts"
+data = Faraday.get(url).body
+JSON.parse(data, symbolize_title: true)
+end
+    end
