@@ -1,0 +1,17 @@
+{
+  "name": "automation_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha src/test/*.js --timeout 1500000 "
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chromedriver": "^89.0.0",
+    "mocha": "^8.3.2",
+    "mocha-junit-reporter": "^2.0.0",
+    "selenium-webdriver": "^4.0.0-beta.2"
+  }
+}
